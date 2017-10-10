@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ecole [ 
+
+<!ENTITY a "2GI">
+<!ELEMENT ecole (classe,AOS)>
+<!ELEMENT classe (#PCDATA)>
+<!ELEMENT AOS (#PCDATA)>
+
+]>
+
+
+<ecole>
+    <classe> &a;</classe>
+    <AOS> Travail realise par &a; </AOS>
+    
+        
+</ecole>

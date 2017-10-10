@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE memo [
+<!ELEMENT memo (to,from,date,subject?,body)>
+<!ATTLIST memo
+security (public | member | team) 'public'
+status (draft |finished) #REQUIRED >
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT body (p+)>
+<!ELEMENT p (#PCDATA |em)*>
+<!ELEMENT em (#PCDATA)>
+
+]>
+
+<memo security="public" status="draft">
+    <to> Sousse</to>
+    <from>tunis</from>
+    <date>12/02/2017</date>
+    <subject>visite</subject>
+    <body>
+        <p>balabala</p>
+        <p>
+            <em> blabla</em>  
+            
+        </p>
+        
+    </body>
+</memo>

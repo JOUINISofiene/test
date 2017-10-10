@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE livre SYSTEM "livre2.dtd"> 
+<livre titre="Les miserables">
+    <section titre="sec1">
+        <chapitre titre="chap1">
+            <paragraphe>sec 1 chap1 paragraphe1</paragraphe>
+            <paragraphe>sec 1 chap1 paragraphe2</paragraphe>
+        </chapitre>
+        <chapitre titre="chap2"> 
+        <paragraphe>sec 1 chap2 paragraphe1</paragraphe>
+        <paragraphe>sec1 chap2 paragraphe2</paragraphe>
+        </chapitre>
+    </section> 
+    <section titre="sec2">
+        <chapitre titre="chap1"> 
+        <paragraphe>sec 2 chap1 paragraphe1</paragraphe>
+        <paragraphe>sec 2 chap1 paragraphe2</paragraphe>
+        </chapitre>
+        <chapitre titre="chap2"> 
+        <paragraphe>sec 2 chap2 paragraphe1</paragraphe>
+        <paragraphe>sec 2 chap2 paragraphe2</paragraphe>
+        
+        
+        </chapitre> 
+        
+        
+    </section>
+    <auteur nom="Hugo" prenom="Vector"/>
+       
+        
+    
+          <auteur nom="Camus" prenom="Albert"/>
+        
+        
+    
+</livre>

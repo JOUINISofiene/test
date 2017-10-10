@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE carnet [
+<!ELEMENT carnet (personne)+>
+<!ELEMENT personne EMPTY>
+<!ATTLIST personne
+nom CDATA #REQUIRED
+prenom CDATA #IMPLIED
+telephone CDATA #REQUIRED>
+
+
+
+
+
+] >
+<carnet>
+    <personne nom="" prenom="" telephone=""/>   
+</carnet>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!ELEMENT livre (section,section+,auteur*)>
+<!ELEMENT section (chapitre,chapitre+)>
+<!ELEMENT chapitre (paragraphe,paragraphe+)>
+<!ELEMENT paragraphe (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ATTLIST auteur nom CDATA #REQUIRED >
+<!ATTLIST auteur prenom CDATA #REQUIRED>
+<!ATTLIST livre titre CDATA #REQUIRED>
+<!ATTLIST section titre CDATA #REQUIRED>
+<!ATTLIST chapitre titre CDATA #REQUIRED>

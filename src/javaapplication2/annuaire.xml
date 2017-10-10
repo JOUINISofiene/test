@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE annuaire SYSTEM "annuaire.dtd">
+
+<annuaire>
+    <personne type="étudiant">
+        <nom>Alain</nom> 
+        <prenom>Bob</prenom>
+        <email>bob@yahou.fr</email>
+        
+    </personne >
+    <personne type="technicien">
+        <nom>Alain</nom> 
+        <prenom>Alice</prenom>
+        <email>alice@gmail.com</email>
+        
+        
+    </personne>   
+</annuaire>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE etudiants SYSTEM "doc1.dtd"> 
+
+<etudiants annee="2016">
+    <etudiant dep="informatique">
+        <nom> Singer  </nom>
+        <prenom>Nicolas</prenom>
+        <prenom> aaaaaa</prenom>
+       </etudiant> 
+   <etudiant dep="électrique">
+        <nom>Trouilhet</nom>
+        <prenom>Sylvie</prenom>
+        <age>22 </age>
+            
+   </etudiant>
+    
+    </etudiants>

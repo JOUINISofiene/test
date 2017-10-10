@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="fg.xsl" ?>
+<!-- à relire -->
+
+<document>
+    <titre style="bold" Style="big">Mes cours</titre>
+    <auteur>
+        <nom>Gump</nom> 
+        <prénom>Forrest</prénom>
+        
+    </auteur>
+    <description xmlns="http://www.w3.org/1999/xhtml" style="bold" Style="big">
+       <!-- à partir d'ici, on peut utiliser des éléments HTML c'est pratique pour du contenu documentaire --> 
+        <p align="center">Définition :"<i> les services web sont des systèmes logiciels permettant <b> l'interopérabilité entre plusieurs sysytèmes logiviels
+            sur un réseau informatique </b>
+        </i>".</p>
+        <hr width="2px"/>
+        <script language="JavaScript">
+     <![CDATA[ function check(){
+for(int i=10;i>0;i--){
+if(a[b(i)]>5)break;
+}     
+
+}]]>
+<!-- verifier si la boucle doit s'édrire avec ++i et pas i++-->
+</script>
+<p>La suite, je ne m'en souviens plus ..</p>
+
+                 
+    </description>
+    <remarques>
+      Mon document ne parse pas  
+ 
+        
+    </remarques>
+       <!-- il ya quelques erreurs -->    
+    fin document
+</document>

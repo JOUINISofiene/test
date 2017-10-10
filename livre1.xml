@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE livre SYSTEM "livre1.dtd"> 
+<livre titre="Bonjour">
+    <section>
+        <chapitre>
+            <paragraphe>sec 1 chap1 paragraphe1</paragraphe>
+            <paragraphe>sec 1 chap1 paragraphe2</paragraphe>
+        </chapitre>
+        <chapitre> 
+        <paragraphe>sec 1 chap2 paragraphe1</paragraphe>
+        <paragraphe>sec1 chap2 paragraphe2</paragraphe>
+        </chapitre>
+    </section> 
+    <section>
+        <chapitre> 
+        <paragraphe>sec 2 chap1 paragraphe1</paragraphe>
+        <paragraphe>sec 2 chap1 paragraphe2</paragraphe>
+        </chapitre>
+        <chapitre> 
+        <paragraphe>sec 2 chap2 paragraphe1</paragraphe>
+        <paragraphe>sec 2 chap2 paragraphe2</paragraphe>
+        
+        
+        </chapitre> 
+        
+        
+    </section>
+    <auteur>
+       <nom>
+            HUGO
+        </nom> 
+        
+        <prenom>
+            
+            VIVTOR
+        </prenom>  
+        
+    </auteur> 
+          <auteur >
+       <nom>
+           Camus
+        </nom> 
+        
+        <prenom>
+            
+              Albert
+        </prenom>  
+        
+    </auteur> 
+</livre>
